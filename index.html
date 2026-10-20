@@ -43,7 +43,7 @@
 		-->
 
 		<h2>Overview</h2>
-		Give a high-level overview of what you implemented in this homework. Think about what you've built as a whole. Share your thoughts on what interesting things you've learned from completing the homework.
+		<p>This project handles rasterization of images, mainly from SVG files to images. The crux of the project is how to sample an image to render it on the screen in a visually appealing way. Multiple techniques for rendering and antialiasing are also implemented and analyzed, such as supersampling, interpolating using barycentric coordinates, pixel sampling methods, and level sampling methods.</p>
 
 		<h2>Task 1: Drawing Single-Color Triangles</h2>
 		Triangle rasterization is just a way to render a triangle on a screen by calculating which pixels to fill in. It works by bounding the triangle within a set of x and y coordinates, then iterating over the edges of the boundary and calculating whether or not the center of the pixel sits within the triangle boundary. If it is within the triangle, then the pixel is filled with a color. 
